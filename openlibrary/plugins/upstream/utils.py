@@ -517,7 +517,7 @@ def process_version(
         "add publisher and source",
     ]
     if (
-        isinstance(v, List)
+        isinstance(v, list)
         and v.key.startswith('/books/')
         and not v.get('machine_comment')
     ):
